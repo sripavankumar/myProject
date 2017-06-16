@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Eagle+Lake" rel="stylesheet">
+      <!-- jQuery library -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+      <!-- Latest compiled JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+       <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css?family=Bubbler+One" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css?family=Bubbler+One|Cormorant+SC" rel="stylesheet">
+    <style>
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+      margin: auto;
+     width: 70%;
+ }
+    body
+
+    ul#customNavbar {
+      padding:18px;
+    }
+    ul#customNavbar li{
+      display:inline;
+      padding:10px;
+      font-size:15px;
+    }
+    ul#customNavbar li a{
+      font-size: 20px;
+      color:white;
+    }
+    ul#customNavbar li a:hover{
+      color:#EEFF41;
+      font-weight:bold;
+    }
+    </style>
+    <script>
+function validateForm() {
+    var x = document.forms["myForm"]["fname"].value;
+    if (x == "") {
+        alert("Name must be filled out");
+        return false;
+    }
+}
+
+</script>
+  </head>
+  <body>
+  <div class="continer-fluid">
+    <div class="row">
+     <div class="col-md-3" style="padding-top:40px;padding-left:50px;">
+      <img src="img/logo.jpg" alt="logo" width="100" height="50">
+     </div>
+     <div class="col-md-9" style="padding-top:40px;">
+     <nav class="navbar navbar-default" style="background-color:white;padding-left:50px;">
+         <ul class="nav navbar-nav" style="float:right;background-color:white;">
+           <li style="padding-left:30px;"><a href="index.html"><b>Home</b></a></li>
+           <li class="dropdown">
+               <a class="dropdown-toggle" data-toggle="dropdown" href="product.html"><b>Poduct & Service</b>
+               <span class="caret"></span></a>
+               <ul class="dropdown-menu">
+                 <li><a href="business.html">BUSINESS CONSULTING</a></li>
+                 <li><a href="desining.html">DESIGNING</a></li>
+                 <li><a href="training.html">TRAINING</a></li>
+                 <li><a href="cloud.html">CLOUD SOLUTIONS</a></li>
+               </ul>
+             </li>
+           <li style="padding-left:30px;"><a href="contactus.html"><b>Contact</b></a></li>
+         </ul>
+       </nav>
+     </div>
+    </div>
+    <!-- Navbar -->
+      <div class="row">
+          <img src="img/business.jpg" alt="business" style="width:100%;padding:20px;">
+      </div>
+      <div class="row" style="background-color:#D4EBF3;">
+        <p style="color:#00728F;text-align:center;font-family: 'Merriweather', serif;font-size:30px;padding-top:50px;">BUSINESS CONSULTING</p>
+        <p style="text-align:center;line-height:1.6;padding-bottom:50px;">We work with the world’s leading organizations to provide collaborative solutions to their business and IT<br> challenges with innovative ideas that are embraced by their customers. More than 5,300 professionals around the world leverage<br> deep industry knowledge across 15 verticals including: banking and financial services, healthcare, retail, consumer goods and<br> insurance to deliver robust digital solutions in key areas of client growth.</p>
+
+      </div>
+  </div>
+</body>
+</html>

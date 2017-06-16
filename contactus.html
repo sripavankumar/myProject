@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CASE STUDY</title>
+      <meta charset="utf-8">
+      <!-- Latest compiled and minified CSS starting-->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Eagle+Lake" rel="stylesheet">
+      <!-- jQuery library -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+      <!-- Latest compiled JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+            <!-- Latest compiled and minified CSS closing -->
+    <style>
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+      margin: auto;
+     width: 70%;
+ }
+    body
+    ul#customNavbar {
+      padding:18px;
+    }
+    ul#customNavbar li{
+      display:inline;
+      padding:10px;
+      font-size:15px;
+    }
+    ul#customNavbar li a{
+      font-size: 20px;
+      color:white;
+    }
+    ul#customNavbar li a:hover{
+      color:#EEFF41;
+      font-weight:bold;
+    }
+    </style>
+  </head>
+  <body>
+  	<div class="container-fluid">
+  	 <div class="row">
+  	  <div class="col-md-3" style="padding-top:40px;padding-left:50px;">
+  	   <img src="img/logo.jpg" alt="logo" width="100" height="50">
+  	  </div>
+  	  <div class="col-md-9" style="padding-top:40px;">
+  		 <nav class="navbar navbar-default" style="background-color:white;padding-left:50px;">
+  		    <ul class="nav navbar-nav" style="float:right;background-color:white;">
+  		      <li style="padding-left:30px;"><a href="index.html"><b>Home</b></a></li>
+  				  <li class="dropdown">
+  			        <a class="dropdown-toggle" data-toggle="dropdown" href="product.html"><b>Poduct & Service</b>
+  			        <span class="caret"></span></a>
+  			        <ul class="dropdown-menu">
+  			          <li><a href="business.html">BUSINESS CONSULTING</a></li>
+  			          <li><a href="desining.html">DESIGNING</a></li>
+  			          <li><a href="training.html">TRAINING</a></li>
+                  <li><a href="cloud.html">CLOUD SOLUTIONS</a></li>
+  			        </ul>
+  			      </li>
+  		      <li style="padding-left:30px;"><a href="contactus.html"><b>Contact</b></a></li>
+  		    </ul>
+  	    </nav>
+  	  </div>
+  	 </div>
+    <!-- Navbar -->
+    <p style="font-family: 'Cormorant SC', serif;text-align:center;font-size:30px;padding-top:40px;">CONTACT US</p>
+    <div class="row">
+          <div class="col-md-6" style="padding-top:80px;">
+            <!-- Google Maps -->
+            <iframe width="100%" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=Near+Kotak+mahindra+bank,+Nanjundeshawara+Nagar,+Hosur&key=AIzaSyCFcywxqQCSP_xedCNJiRQRsPUqt_viJ8I" allowfullscreen></iframe>
+            <!-- Google Maps -->
+          </div>
+        <div class="col-md-6" style="padding-top:110px;padding-bottom:40px;">
+          <h2>Send us your Query</h2>
+            <form action="insert.php" method="post" onsubmit="return validateForm();" method="post">
+            <input type="text" name="fname" required placeholder="Your Name" style="height:40px;width:400px;"><br><br>
+            <input type="email" name="email" required placeholder="Your E-Mail" style="height:40px;width:400px;"><br><br>
+            <input type="text" name="phone" required placeholder="Your Mobile" maxlength="10" style="height:40px;width:400px;"><br><br>
+            <textarea rows="4" cols="50" name="Message" required placeholder="Message"></textarea><br><br>
+            <input type="submit" value="Submit Button" style="background-color:#337AB7;width:150px;height:40px;color:white;">
+          </form>
+        </div>
+    </div>
+  </div>
+       <div class="row" style="background-color:#212121;color:white;">
+          <div class="col-md-4 col-md-offset-2" style="padding-bottom:20px;">
+           <p style="font-family: 'Merriweather', serif;font-size:20px;padding-left:70px;padding-top:40px;">CONTACTUS</p>
+           <h4 style="padding-left:50px;font-family: 'Bubbler One', sans-serif;font-size:20px;padding-top:10px;line-height:1.2;">No.1, srinagar 4th line<br>
+               sathyanarayanapuram,<br>
+               near bangalor centralmall,<br>
+               Bangalore, Karnataka - 560037,<br>
+               India - Asia.<br><br>
+               Phone: 8147252966<br><br>
+               Email: pavankumar@gmail.com
+           </h4>
+         </div>
+         <div class="col-md-4" style="padding-top:40px;">
+          <h3 style="padding-left:50px;"><b>SOCIAL<b></h3><br>
+            <div style="padding-left:40px;">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/2000px-F_icon.svg.png" style="width:10%;">&nbsp&nbsp FACEBOOK<br><br>
+              <img src="http://icons.iconarchive.com/icons/dtafalonso/android-lollipop/512/Gmail-icon.png"style="width:10%;">&nbsp&nbspGMAIL
+            </div>
+         </div>
+     </div>
+</div>
+</body>
+</html>
